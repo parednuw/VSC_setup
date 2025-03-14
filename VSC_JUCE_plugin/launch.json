@@ -5,7 +5,7 @@
             "name": "lldb Debugger Attach",
             "type": "lldb",
             "request": "attach",
-            "program": "/Applications/REAPER.app/Contents/MacOS/REAPER"
+            "program": "/Applications/REAPER.app/Contents/MacOS/REAPER" //set path to your DAW of choice
         }
     ]
 }

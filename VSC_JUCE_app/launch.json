@@ -5,9 +5,9 @@
             "name": "lldb Debugger Launch",
             "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/build/${workspaceFolderBasename}", //debugs the executable, if it is named after the project folder name
+            "program": "${command:cmake.launchTargetPath}",
             "args": [],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${fileDirname}"
         }
     ]
 }
